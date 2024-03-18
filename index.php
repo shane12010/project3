@@ -8,18 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <h2>Sign Up</h2>
+        <h2>meld je aan</h2>
         <form method="post" action="signup.php">
-            <label for="username">Username:</label>
+            <label for="username">Gebruikersnaam:</label>
             <input type="text" id="username" name="username" required>
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="password">Password:</label>
+            <label for="password">Wachtwoord    :</label>
             <input type="password" id="password" name="password" required>
 
-            <input type="submit" value="Sign Up">
+            <input type="submit" value="meld aan">
         </form>
     </div>
 </body>
