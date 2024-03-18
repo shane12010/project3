@@ -1,6 +1,14 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <?php
-try {
+try {   
     $db = new PDO("mysql:host=localhost;dbname=project3x", "root", "");
 
     if (isset($_POST['verzenden'])) {
@@ -25,7 +33,7 @@ try {
     die("Error!: " . $e->getMessage());
 }
 ?>
-<form method="POST" action="/project3x/inserformulier.php">
+<form method="POST" action="/project3x/insertformulier.php">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required><br>
 
@@ -36,3 +44,5 @@ try {
 
     <input type="submit" name="verzenden" value="Submit">
 </form>
+</body>
+</html>
