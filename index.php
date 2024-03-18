@@ -20,7 +20,9 @@
             <input type="password" id="password" name="password" required>
 
             <input type="submit" value="meld aan">
+            <a href="inlog.php">heb je al een account log hier in.</a>
         </form>
     </div>
+    <a href="inlog.php"></a>
 </body>
 </html>
