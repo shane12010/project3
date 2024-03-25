@@ -9,4 +9,5 @@ $tweets = $pak_alle_tweets->fetchALL();
 foreach ($tweets as $tweet){
  echo $tweet['content'] . </br>
 
+ 
 >?
