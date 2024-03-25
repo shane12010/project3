@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>meld je aan</h2>
+        <h2>Meld je aan</h2>
         <form method="post" action="signup.php">
             <label for="username">Gebruikersnaam:</label>
             <input type="text" id="username" name="username" required>
