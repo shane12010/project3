@@ -17,7 +17,7 @@
             <input type="password" id="password" name="password" required>
 
             <input type="submit" value="Log in">
-            <a href="inlog.php">Heb je nog geen account? Maak hier een aan</a>
+            <a href="index.php">Heb je nog geen account? Maak hier een aan</a>
         </form>
 </body>
 </html>
